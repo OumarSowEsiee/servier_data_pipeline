@@ -294,3 +294,13 @@ Fichier de sortie : drug_mentions.json :
 
 - **Configuration centralisée** *(si applicable)* :
   - Paramètres configurables centralisés dans un fichier ou module dédié (ex: `config.py` ou `.env`).
+
+---
+
+MIT License
+
+Copyright (c) 2025 Oumar Sow
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+...
+(full texte MIT : https://opensource.org/licenses/MIT)
