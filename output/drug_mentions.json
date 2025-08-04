@@ -1,0 +1,144 @@
+{
+  "DIPHENHYDRAMINE": {
+    "mentions": [
+      {
+        "source": "pubmed.csv",
+        "journal": "Journal of emergency nursing",
+        "date": "01/01/2019",
+        "publication_id": 1
+      },
+      {
+        "source": "pubmed.csv",
+        "journal": "Journal of emergency nursing",
+        "date": "01/01/2019",
+        "publication_id": 2
+      },
+      {
+        "source": "pubmed.csv",
+        "journal": "The Journal of pediatrics",
+        "date": "02/01/2019",
+        "publication_id": 3
+      },
+      {
+        "source": "clinical_trials",
+        "journal": "Journal of emergency nursing",
+        "date": "1 January 2020",
+        "publication_id": "NCT01967433"
+      },
+      {
+        "source": "clinical_trials",
+        "journal": "Journal of emergency nursing",
+        "date": "1 January 2020",
+        "publication_id": "NCT04189588"
+      },
+      {
+        "source": "clinical_trials",
+        "journal": "Journal of emergency nursing",
+        "date": "1 January 2020",
+        "publication_id": "NCT04237091"
+      }
+    ]
+  },
+  "TETRACYCLINE": {
+    "mentions": [
+      {
+        "source": "pubmed.csv",
+        "journal": "Journal of food protection",
+        "date": "01/01/2020",
+        "publication_id": 4
+      },
+      {
+        "source": "pubmed.csv",
+        "journal": "American journal of veterinary research",
+        "date": "02/01/2020",
+        "publication_id": 5
+      },
+      {
+        "source": "pubmed.csv",
+        "journal": "Psychopharmacology",
+        "date": "2020-01-01",
+        "publication_id": 6
+      }
+    ]
+  },
+  "ETHANOL": {
+    "mentions": [
+      {
+        "source": "pubmed.csv",
+        "journal": "Psychopharmacology",
+        "date": "2020-01-01",
+        "publication_id": 6
+      }
+    ]
+  },
+  "EPINEPHRINE": {
+    "mentions": [
+      {
+        "source": "pubmed.csv",
+        "journal": "The journal of allergy and clinical immunology. In practice",
+        "date": "01/02/2020",
+        "publication_id": 7
+      },
+      {
+        "source": "pubmed.csv",
+        "journal": "The journal of allergy and clinical immunology. In practice",
+        "date": "01/03/2020",
+        "publication_id": 8
+      },
+      {
+        "source": "clinical_trials",
+        "journal": "Journal of emergency nursing\\xc3\\x28",
+        "date": "27 April 2020",
+        "publication_id": "NCT04188184"
+      }
+    ]
+  },
+  "ISOPRENALINE": {
+    "mentions": [
+      {
+        "source": "pubmed.json",
+        "journal": "Journal of photochemistry and photobiology. B, Biology",
+        "date": "01/01/2020",
+        "publication_id": 9
+      }
+    ]
+  },
+  "BETAMETHASONE": {
+    "mentions": [
+      {
+        "source": "pubmed.json",
+        "journal": "The journal of maternal-fetal & neonatal medicine",
+        "date": "01/01/2020",
+        "publication_id": 10
+      },
+      {
+        "source": "pubmed.json",
+        "journal": "Journal of back and musculoskeletal rehabilitation",
+        "date": "01/01/2020",
+        "publication_id": 11
+      },
+      {
+        "source": "pubmed.json",
+        "journal": "The journal of maternal-fetal & neonatal medicine",
+        "date": "01/03/2020",
+        "publication_id": ""
+      },
+      {
+        "source": "clinical_trials",
+        "journal": "H\u00f4pitaux Universitaires de Gen\u00e8ve",
+        "date": "1 January 2020",
+        "publication_id": "NCT04153396"
+      }
+    ]
+  },
+  "ATROPINE": {
+    "mentions": [
+      {
+        "source": "pubmed.json",
+        "journal": "The journal of maternal-fetal & neonatal medicine",
+        "date": "01/03/2020",
+        "publication_id": ""
+      }
+    ]
+  }
+}
