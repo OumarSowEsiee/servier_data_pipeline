@@ -5,6 +5,7 @@ def normalize_title(title):
     """
     return str(title).lower()
 
+
 def find_mentions(drugs_df, publications_df, title_col):
     """
     Recherche les mentions des médicaments dans les titres des publications.
@@ -22,12 +23,14 @@ def find_mentions(drugs_df, publications_df, title_col):
         title = normalize_title(pub[title_col])
         for _, drug in drugs_df.iterrows():
             if drug["drug"].lower() in title:
-                mentions.append({
-                    "drug": drug["drug"],
-                    "atccode": drug["atccode"],
-                    "source": pub.get("source", "unknown"),
-                    "journal": pub["journal"],
-                    "date": pub["date"],
-                    "publication_id": pub["id"]
-                })
+                mentions.append(
+                    {
+                        "drug": drug["drug"],
+                        "atccode": drug["atccode"],
+                        "source": pub.get("source", "unknown"),
+                        "journal": pub["journal"],
+                        "date": pub["date"],
+                        "publication_id": pub["id"],
+                    }
+                )
     return mentions

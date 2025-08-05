@@ -1,6 +1,7 @@
 from src.pipeline.graph_builder import build_graph
 import unittest
 
+
 class testGraphBuilder(unittest.TestCase):
     """Tests pour la fonction build_graph du module graph_builder."""
 
@@ -12,7 +13,7 @@ class testGraphBuilder(unittest.TestCase):
                 "journal": "Lancet",
                 "date": "2020-01-01",
                 "source": "pubmed_csv",
-                "publication_id": 1
+                "publication_id": 1,
             }
         ]
         graph = build_graph(mentions)
@@ -20,6 +21,7 @@ class testGraphBuilder(unittest.TestCase):
         self.assertIn("Aspirin", graph)
         self.assertEqual(len(graph["Aspirin"]["mentions"]), 1)
         self.assertEqual(graph["Aspirin"]["mentions"][0]["journal"], "Lancet")
+
 
 if __name__ == "__main__":
     unittest.main()

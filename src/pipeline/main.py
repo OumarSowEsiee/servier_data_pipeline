@@ -4,6 +4,7 @@ from src.pipeline import loader, parser, graph_builder, config
 from src.ad_hoc import journal_analyzer
 import json
 
+
 def run_pipeline():
     """
     Exécute le pipeline complet :
@@ -25,8 +26,8 @@ def run_pipeline():
     pubmed_json_df = pd.DataFrame(pubmed_json)
 
     clinical = loader.load_clinical_trials(config.CLINICAL_TRIALS_PATH)
-    clinical.rename(columns={"scientific_title" : "title"}, inplace=True)
-    clinical["source"] =  "clinical_trials"
+    clinical.rename(columns={"scientific_title": "title"}, inplace=True)
+    clinical["source"] = "clinical_trials"
 
     all_pubs = pd.concat([pubmed_csv, pubmed_json_df, clinical], ignore_index=True)
 
@@ -37,6 +38,7 @@ def run_pipeline():
         json.dump(graph, f, indent=2)
 
     journal, drugs = journal_analyzer.most_mentions_by_journal(graph)
+
 
 if __name__ == "__main__":
     run_pipeline()

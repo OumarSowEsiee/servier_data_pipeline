@@ -276,6 +276,7 @@ Fichier de sortie : drug_mentions.json :
 - **Tests unitaires** :
   - Tous les modules critiques sont couverts par des tests dans le dossier `tests/`.
   - Utilisation possible de `pytest` ou `unittest` pour plus de flexibilité.
+  - Utilisation de black pour avoir un code propre
 
 - **Utilisation de Poetry** :
   - Pour la gestion des dépendances, l’isolation de l’environnement, et la portabilité du projet.
